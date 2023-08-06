@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.information-column {
+  padding: 40px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.information-column hr {
+  border: none;
+  border-bottom: 1px solid #1e90ff;
+  margin-top: 18px;
+}
+
+.information-column img {
+  width: 300px;
+  border: #1e90ff 2px solid;
+  margin-bottom: 18px;
+  border-radius: 50%;
+}
+
+.information-column h3 {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.information-column ul {
+  list-style-type: none;
+}
+
+.information-column li {
+  text-align: left;
+  margin: 10px 0;
+}
+
+.contact-description a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.contact-description i {
+  color: #1e90ff;
+  margin-right: 10px;
+}
+
+.education-description {
+  margin-top: 32px;
+}
+
+.education-description p {
+  color: #1e90ff;
+}
+
+.language-description .percent {
+  height: 6px;
+  background-color: #1e90ff70;
+  margin-top: 5px;
+  width: 205px;
+}
+
+.language-description .percent div {
+  height: 6px;
+  background-color: #1e90ff;
+}
+
+.language-description .percent.english div {
+  width: 85%;
+}
+
+.language-description .percent.french div {
+  width: 25%;
+}
+
+.experiences-column {
+  background-color: #fff;
+  padding: 40px;
+  color: #000;
+}
+
+.experiences-column section {
+  margin-bottom: 30px;
+}
+
+.experiences-column h2 {
+  margin-bottom: 15px;
+}
+
+.experiences-column .experience {
+  margin-bottom: 14px;
+}
+
+.experiences-column a {
+  text-decoration: underline;
+  color: #000;
+}
+
+.experiences-column .projects {
+  margin-bottom: 14px;
+}
+
+.experiences-column .last-update {
+  text-align: right;
+}
+
+@media (min-width: 992px) {
+  .experience-date {
+    background-color: red;
+  }
+  .container {
+    display: flex;
+  }
+  .information-column h1 {
+    font-size: 24px;
+  }
+  .information-column h2 {
+    font-size: 18px;
+  }
+  .information-column li {
+    font-size: 14px;
+  }
+  .information-column img {
+    width: 200px;
+    height: 200px;
+  }
+  .experiences-column .experience {
+    display: flex;
+  }
+  .experience .experience-date {
+    width: 350px;
+  }
+  .experiences-column p {
+    text-align: justify;
+  }
+}
